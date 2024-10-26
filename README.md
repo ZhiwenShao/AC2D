@@ -9,6 +9,7 @@ git clone https://github.com/ZhiwenShao/AC2D
 cd AC2D
 ```
 - Install requirements:
+```
 conda create -n ac2d python=3.11.3
 conda activate ac2d
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
