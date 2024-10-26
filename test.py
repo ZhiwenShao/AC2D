@@ -126,7 +126,7 @@ if __name__ == '__main__':
     parser.add_argument('--au_num', type=int, default=12, help='number of AUs')
     parser.add_argument('--land_num', type=int, default=49, help='number of landmarks')
     parser.add_argument('--eval_batch_size', type=int, default=20, help='mini-batch size for evaluation')
-    parser.add_argument('--start_epoch', type=int, default=0, help='starting epoch')
+    parser.add_argument('--start_epoch', type=int, default=1, help='starting epoch')
     parser.add_argument('--num_workers', type=int, default=8)
     parser.add_argument('--causal_dim', type=int, default=512)
 
