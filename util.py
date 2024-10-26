@@ -238,7 +238,7 @@ def prepare_coord(land, au_num, dataset_name):
                                           [arr2d[0, 34], arr2d[1, 34]], [arr2d[0, 40], arr2d[1, 40]]
 
             ])
-        elif dataset_name=='Aff-Wild2_2021version':
+        elif dataset_name=='Aff-Wild2':
             coord[i, 8:24, :] = np.array([[arr2d[0, 21], arr2d[1, 21]], [arr2d[0, 26], arr2d[1, 26]],# au7
                                           [arr2d[0, 43], arr2d[1, 43]], [arr2d[0, 45], arr2d[1, 45]],# au10
                                           [arr2d[0, 31], arr2d[1, 31]], [arr2d[0, 37], arr2d[1, 37]],# au12 au15
