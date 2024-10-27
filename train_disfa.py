@@ -472,8 +472,8 @@ if __name__ == '__main__':
             weight decay. We use a cosine schedule for WD and using a larger decay by
             the end of training improves performance for ViTs.""")
 
-    parser.add_argument('--lr', type=float, default=2e-3, metavar='LR',
-                        help='learning rate (default: 2e-3)')
+    parser.add_argument('--lr', type=float, default=4e-3, metavar='LR',
+                        help='learning rate (default: 4e-3)')
     parser.add_argument('--layer_decay', type=float, default=1.0)
     parser.add_argument('--min_lr', type=float, default=1e-6, metavar='LR',
                         help='lower lr bound for cyclic schedulers that hit 0 (1e-6)')
