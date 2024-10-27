@@ -48,11 +48,11 @@ python train.py --net='restv2_tiny_ac2d' --run_name='Aff-Wild2' --train_path_pre
 ```
 python test.py --net='restv2_tiny_ac2d' --run_name='BP4D_combine_1_2' --test_path_prefix='data/list/BP4D_part3' --flip_reflect='data/list/reflect_49.txt' --au_num=12 --dataset_name='BP4D' --eval_batch_size=20 --gpu_id=0 --start_epoch=1 --epochs=20  
 ```
-- Visualize self-attention maps
+- Visualize self-attention maps:
 ```
 python test.py --net='restv2_tiny_ac2d' --run_name='BP4D_combine_1_2' --test_path_prefix='data/list/BP4D_part3_sample' --flip_reflect='data/list/reflect_49.txt' --au_num=12 --dataset_name='BP4D' --eval_batch_size=20 --gpu_id=0 --start_epoch=1 --epochs=20 --pred_AU=False --vis_attention=True
 ```
-- Compute FLOPs and \#Params.
+- Compute FLOPs and \#Params.:
 ```
 python test.py --net='restv2_tiny_ac2d' --run_name='BP4D_combine_1_2' --test_path_prefix='data/list/BP4D_part3_sample' --flip_reflect='data/list/reflect_49.txt' --au_num=12 --dataset_name='BP4D' --eval_batch_size=1 --gpu_id=0 --start_epoch=20 --epochs=20 --pred_AU=False --cal_flops=True
 ```
