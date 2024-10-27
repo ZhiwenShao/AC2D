@@ -1,5 +1,5 @@
 # AC2D
-This repository implements the training and testing of AC2D for [Facial Action Unit Detection by Adaptively Constraining Self-Attention and Causally Deconfounding Sample](https://arxiv.org/pdf/2410.01251.pdf) in PyTorch
+This repository is the official PyTorch implementation including training and testing of IJCV paper "[Facial Action Unit Detection by Adaptively Constraining Self-Attention and Causally Deconfounding Sample]"(https://arxiv.org/pdf/2410.01251.pdf)
 
 # Getting Started
 ## Installation
